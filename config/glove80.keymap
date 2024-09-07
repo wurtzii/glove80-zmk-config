@@ -61,6 +61,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        toGamingLayer {
+            bindings = <&tog 1>;
+            key-positions = <64 79>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -71,7 +80,7 @@
 &kp TAB   &kp Q   &kp W          &kp F       &kp P         &kp B                                                                             &kp J   &kp L          &kp U      &kp Y    &kp SEMI  &trans
 &kp ESC   &kp A   &kp R          &kp S       &kp T         &kp G                                                                             &kp M   &kp N          &kp E      &kp I    &kp O     &trans
 &kp LALT  &kp X   &kp C          &kp D       &kp V         &kp Z   &kp LEFT_CONTROL  &trans     &mo 5     &trans  &trans     &kp LEFT_SHIFT  &kp K   &kp H          &kp COMMA  &kp DOT  &kp FSLH  &trans
-&trans    &trans  &kp BACKSPACE  &kp DELETE  &kp LEFT_GUI          &mo 2             &kp SPACE  &trans    &trans  &kp ENTER  &mo 3                   &kp RIGHT_GUI  &mo 4      &mo 5    &trans    &trans
+&trans    &trans  &kp BACKSPACE  &kp DELETE  &kp LEFT_GUI          &mo 2             &kp SPACE  &trans    &trans  &kp ENTER  &mo 3                   &kp RIGHT_GUI  &mo 4      &trans   &trans    &trans
             >;
         };
 
@@ -93,7 +102,7 @@
 &trans  &kp ASTERISK  &kp N7     &kp N8     &kp N9    &trans                                                    &trans    &trans    &trans  &trans         &trans  &trans
 &trans  &kp N0        &kp N4     &kp N5     &kp N6    &trans                                                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT      &trans  &trans
 &trans  &kp SLASH     &kp N1     &kp N2     &kp N3    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans  &trans         &trans  &trans
-&trans  &trans        &kp EQUAL  &kp MINUS  &kp PLUS          &trans  &trans  &trans    &trans  &trans  &trans            &mo 3     &trans  &kp BACKSPACE  &trans  &trans
+&trans  &trans        &kp EQUAL  &kp MINUS  &kp PLUS          &trans  &trans  &trans    &trans  &trans  &trans            &trans    &trans  &kp BACKSPACE  &trans  &trans
             >;
         };
 
