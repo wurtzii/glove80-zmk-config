@@ -76,12 +76,12 @@
 
         default_layer {
             bindings = <
-&trans    &trans  &trans      &trans         &trans                                                                                                      &trans             &trans           &trans   &trans    &trans
-&trans    &trans  &trans      &trans         &trans        &trans                                                                            &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans   &trans    &trans
-&kp TAB   &kp Q   &kp W       &kp F          &kp P         &kp B                                                                             &kp J       &kp L              &kp U            &kp Y    &kp SEMI  &trans
-&kp ESC   &kp A   &kp R       &kp S          &kp T         &kp G                                                                             &kp M       &kp N              &kp E            &kp I    &kp O     &trans
-&kp LALT  &kp X   &kp C       &kp D          &kp V         &kp Z   &kp LEFT_CONTROL  &trans     &mo 5     &trans  &trans     &kp LEFT_SHIFT  &kp K       &kp H              &kp COMMA        &kp DOT  &kp FSLH  &kp LALT
-&trans    &trans  &kp DELETE  &kp BACKSPACE  &kp LEFT_GUI          &mo 2             &kp SPACE  &trans    &trans  &kp ENTER  &mo 3                       &kp RIGHT_GUI      &mo 4            &trans   &trans    &trans
+&trans    &trans  &trans      &trans         &trans                                                                                                  &kp C_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans    &trans
+&trans    &trans  &trans      &trans         &trans        &trans                                                                            &trans  &trans         &trans             &trans           &trans    &trans
+&kp TAB   &kp Q   &kp W       &kp F          &kp P         &kp B                                                                             &kp J   &kp L          &kp U              &kp Y            &kp SEMI  &trans
+&kp ESC   &kp A   &kp R       &kp S          &kp T         &kp G                                                                             &kp M   &kp N          &kp E              &kp I            &kp O     &trans
+&kp LALT  &kp X   &kp C       &kp D          &kp V         &kp Z   &kp LEFT_CONTROL  &trans     &mo 5     &trans  &trans     &kp LEFT_SHIFT  &kp K   &kp H          &kp COMMA          &kp DOT          &kp FSLH  &kp LALT
+&trans    &trans  &kp DELETE  &kp BACKSPACE  &kp LEFT_GUI          &mo 2             &kp SPACE  &trans    &trans  &kp ENTER  &mo 3                   &kp RIGHT_GUI  &mo 4              &trans           &trans    &trans
             >;
         };
 
