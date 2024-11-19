@@ -76,7 +76,7 @@
 
         default_layer {
             bindings = <
-&trans    &trans  &trans      &trans         &trans                                                                                                  &kp C_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans    &trans
+&tog 1    &trans  &trans      &trans         &trans                                                                                                  &kp C_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans    &trans
 &trans    &trans  &trans      &trans         &trans        &trans                                                                            &trans  &trans         &trans             &trans           &trans    &trans
 &kp TAB   &kp Q   &kp W       &kp F          &kp P         &kp B                                                                             &kp J   &kp L          &kp U              &kp Y            &kp SEMI  &trans
 &kp ESC   &kp A   &kp R       &kp S          &kp T         &kp G                                                                             &kp M   &kp N          &kp E              &kp I            &kp O     &trans
