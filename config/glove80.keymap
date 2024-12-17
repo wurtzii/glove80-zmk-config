@@ -87,12 +87,12 @@
 
         gaming_layer {
             bindings = <
-&none      &none   &none   &none   &none                                                                      &none     &none         &none      &none  &none
-&none      &kp N5  &kp N6  &kp N7  &kp N8  &kp N9                                                      &none  &none     &none         &none      &none  &none
-&kp TAB    &kp Q   &kp N   &kp E   &kp R   &kp T                                                       &none  &none     &none         &none      &none  &none
-&kp LSHFT  &kp C   &kp A   &kp W   &kp D   &kp F                                                       &none  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &none  &none
-&kp ESC    &kp Z   &kp X   &kp S   &kp V   &kp B   &kp LCTRL  &none      &none    &none  &none  &none  &none  &none     &kp DOWN      &none      &none  &none
-&none      &kp N1  &kp N2  &kp N3  &kp N4          &mo 3      &kp SPACE  &none    &none  &none  &none         &none     &none         &none      &none  &none
+&trans     &trans  &trans  &trans  &trans                                                                          &trans    &trans        &trans     &trans  &trans
+&trans     &kp N5  &kp N6  &kp N7  &kp N8  &kp N9                                                          &trans  &trans    &trans        &trans     &trans  &trans
+&kp TAB    &kp Q   &kp N   &kp E   &kp R   &kp T                                                           &trans  &trans    &trans        &trans     &trans  &trans
+&kp LSHFT  &kp C   &kp A   &kp W   &kp D   &kp F                                                           &trans  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&kp ESC    &kp Z   &kp X   &kp S   &kp V   &kp B   &kp LCTRL  &trans     &trans    &trans  &trans  &trans  &trans  &trans    &kp DOWN      &trans     &trans  &trans
+&trans     &kp N1  &kp N2  &kp N3  &kp N4          &mo 3      &kp SPACE  &trans    &trans  &trans  &trans          &trans    &trans        &trans     &trans  &trans
             >;
         };
 
